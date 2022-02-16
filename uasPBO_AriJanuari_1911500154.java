@@ -50,6 +50,8 @@ class clsframe extends JFrame implements ActionListener
 		panel1.setLayout(new FlowLayout(FlowLayout.CENTER));
 		panel1.add(lblJdl);
 		
+		//note : 5,1 adalah baris dan kolom.. Baris adalah sususan dalam bentuk vertical(kebawah), sedangkan kolom susunan horizontal(menyamping).
+		//jadi 5,1 adalah 5 baris dalam 1 kolom yaitu 5 elemen kebawah dalam 1 kolom
 		panel2.setLayout(new GridLayout(5,1));
 		panel2.add(lblNoMeja);
 		panel2.add(lblMakanan);
